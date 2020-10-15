@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="encode_container p-2">
+    <div class="form-group  py-xl-3 w-50 d-flex align-items-center">
+        <input type="password" class=" w-50 mr-2" required minlength="6" name="my_password" id="my_password" >
+        <button class=" mr-2" id="show">Show</button>
+        <i class="fas fa-star-of-life" id="information" title="Show Rules"></i>
+       
+    </div>
+    <div class="rules bg-white  border border-dark rounded p-2 w-25">
+        <p class="d-flex"> <span class="mr-2"><i class="far fa-check-circle" id="numChars"></i></span> at least 6 characters</p>
+        <p class="d-flex"> <span class="mr-2"><i class="far fa-check-circle" id="upper_lower"></i></span> combination of upper- and lower-case characters(*)</p>
+        <p class="d-flex"> <span class="mr-2"><i class="far fa-check-circle" id="digits"></i></span> one or more digits(*)</p>
+    </div>
+
+
+</div>
+
+
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
